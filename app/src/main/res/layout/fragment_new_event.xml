@@ -1,0 +1,80 @@
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.fragments.Fragment_NewEvent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="436dp"
+        android:id="@+id/scrollView" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:text="@string/Text_Titulo_Fecha"
+                    android:layout_width="115dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_date" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/editText_datepick"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <TimePicker
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/timePicker" />
+
+            <TextView
+                android:text="@string/Text_Titulo_Materia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView_Titulo_Materia"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner_Materia" />
+
+            <TextView
+                android:text="@string/Text_Titulo_Actividad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView_Titulo_Actividad"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner_TipoEval" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Save_Button"
+                android:id="@+id/btn_evt_ok" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

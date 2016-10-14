@@ -1,0 +1,149 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.fragments.Fragment_My_Career">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Text_U"
+            android:id="@+id/textView_Mng_Career_Utext"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Text_Carrera"
+            android:id="@+id/textView_Mng_Career_CText"
+            android:layout_above="@+id/textView_Mng_Career_TitleText"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Text_TituloIntermedio"
+            android:id="@+id/textView_Mng_Career_TitleText"
+            android:layout_below="@+id/textView_Mng_Career_Carrera"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Text_TituloGrado"
+            android:id="@+id/textView_Mng_Career_MidTitleText"
+            android:layout_below="@+id/textView_Mng_Career_TitleText"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Text_Materias_en_Curso"
+            android:id="@+id/textView_Mng_Career_MatActText"
+            android:layout_below="@+id/textView_Mng_Career_MatTotalText"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Text_Materias_Aprobadas"
+            android:id="@+id/textView_Mng_Career_MatAprobText"
+            android:layout_below="@+id/textView_Mng_Career_MatActText"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Text_Materias_Regularizadas"
+            android:id="@+id/textView_Mng_Career_MatReg"
+            android:layout_below="@+id/textView_Mng_Career_MatAprobText"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Text_Materias_Totales"
+            android:id="@+id/textView_Mng_Career_MatTotalText"
+            android:layout_below="@+id/textView_Mng_Career_MidTitleText"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_Mng_Career_Universidad"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_Mng_Career_Carrera"
+            android:layout_below="@+id/textView_Mng_Career_Universidad"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_Mng_Career_TituloInt"
+            android:layout_below="@+id/textView_Mng_Career_Carrera"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_Mng_Career_TituloGrado"
+            android:layout_below="@+id/textView_Mng_Career_TituloInt"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_Mng_Career_MatTotal"
+            android:layout_below="@+id/textView_Mng_Career_TituloGrado"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_Mng_Career_MatCursText"
+            android:layout_below="@+id/textView_Mng_Career_MatTotal"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_Mng_Career_MatAproText"
+            android:layout_below="@+id/textView_Mng_Career_MatCursText"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_Mng_Career_MatRegText"
+            android:layout_below="@+id/textView_Mng_Career_MatAproText"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+</FrameLayout>

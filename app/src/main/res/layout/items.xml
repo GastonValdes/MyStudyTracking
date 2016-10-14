@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+android:padding="5dip">
+<LinearLayout android:id="@+id/thumbnail"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="3dip"
+    android:layout_alignParentLeft="true"
+    android:layout_marginRight="5dip">
+    <ImageView
+        android:id="@+id/imgItem"
+        android:paddingLeft="16dp"
+        android:layout_width="45sp"
+        android:layout_height="45sp"
+        android:contentDescription="@string/Image" />
+</LinearLayout>
+    <TextView
+        android:id="@+id/txt_listMateria"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:textColor="@android:color/holo_blue_dark"
+        android:text=""
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="5dp"
+        android:textStyle="normal"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/txtDescription"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_listMateria"
+        android:textColor="@android:color/black"
+        android:text=""
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:textStyle="normal"
+        android:layout_marginTop="1dip"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:textSize="15sp" />
+</RelativeLayout>

@@ -1,0 +1,96 @@
+<resources>
+    <!-- Aca van las variables Genericas  -->
+    <string name="app_name">My Study Tracking</string>
+    <string name="Wellcome">Wellcome </string>
+    <string name="txtNombre">Name: </string>
+    <string name="txtApellido">Last Name: </string>
+    <string name="txtEmail">eMail: </string>
+    <string name="txtTel">Phone: </string>
+    <string name="txtCel">Celphone: </string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_about">About</string>
+    <string name="action_settings">Settings</string>
+    <string name="Home_Upcoming">Upcoming events</string>
+    <string name="Config_Preaviso_Si_No">Enable Upcomming Alerts</string>
+    <string name="Config_Preaviso_Plazo">Days forseen</string>
+    <string name="Config_Preaviso_Eventos">Events Limit</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Data_Updated">Data Updated</string>
+    <string name="Tap2_Exit">Please click BACK again to exit</string>
+        <string name="About_ESP">This is my first App.\n
+        I did it because my wife suggested the idea, it has the goal of get a grip
+        of your studies, time frames, schedules, career progress, teachers contacts, etc.\n
+        Besides all of that my objective is to learn and improve it as I gain skills.\n
+        Hence I am not looking to make profit ou of it.\n
+        \n
+        Thanks\n
+        Gaston Valdes\n
+        \n
+        If you have any sugestion your wellcome to writte at: gastonvaldes@gmail.com\n
+    </string>
+    <string name="imgabout">ImgAbout</string>
+    <!-- Aca van las variables del Drawer  -->
+    <string name="Title"></string>
+    <string name="Menu_Home">Home</string>
+    <string name="Menu_MyProfile">My Profile</string>
+    <string name="Menu_MngCareer">Manage my career</string>
+    <string name="Menu_Share">Share</string>
+    <string name="Menu_Settings">Settings</string>
+    <string name="Menu_About">About</string>
+    <string name="Menu_Exit">Exit</string>
+    <!-- Aca van las variables de los Floating Buttons  -->
+    <string name="Flt_Calendar">Calendar</string>
+    <string name="Flt_CareerOverview">My Career Overview</string>
+    <string name="Flt_NewEvent">New Event</string>
+
+    <!-- Aca van las variables de la Base de Datos  -->
+
+    <!-- Aca van los Botones-->
+    <string name="Save_Button">Save</string>
+    <!-- Aca van las variables del Fragment My_career-->
+    <string name="Text_U">University: </string>
+    <string name="Text_Carrera">Career: </string>
+    <string name="Text_TituloGrado">Title Degree: </string>
+    <string name="Text_TituloIntermedio">Intermediate Title: </string>
+    <string name="Text_Materias_en_Curso">Active Courses: </string>
+    <string name="Text_Materias_Aprobadas">Aproved Courses: </string>
+    <string name="Text_Materias_Regularizadas">Regular Courses: </string>
+    <string name="Text_Materias_Totales">Total Courses: </string>
+    <!-- Aca van las variables del Fragment New_Event-->
+    <string name="Text_Titulo_Materia">Select a course: </string>
+    <string name="Text_Titulo_Actividad">Select type of evaluation: </string>
+    <string name="Text_Titulo_Fecha">Date: </string>
+    <string name="EditText_Fecha">Pick a date</string>
+
+    <!-- Aca van las variables de Items.xml-->
+    <string name="Image">Logo Image </string>
+    <!-- Aca van las variables del Fragment Manage_Career-->
+    <string name="Text_Listado_Materias">Select courses to start: </string>
+    <string name="Text_Listado_Materias_EnCurso">On going Courser: </string>
+    <string name="btn_Listado_Materias">Start Curse: </string>
+    <string name="btn_Listado_Materias_EnCurso">End Course: </string>
+    <!-- Aca van las variables del Fragment StCourse-->
+    <string name="Text_Materia">Course selected to start: </string>
+    <string name="Text_Materia_noselect">Course not selected yet</string>
+    <string name="Text_Profe">Teacher: </string>
+    <!-- Aca van las variables del Fragment EndCourse-->
+    <string name="Text_Materia_Titulo">Course Update: </string>
+    <string name="Text_Materia_HsTotales">Total HS: </string>
+    <string name="Text_Materia_Regularizada">Regular: </string>
+    <string name="Text_Materia_Aprobada">Approved: </string>
+    <string name="Text_Materia_Activa">on going: </string>
+    <string name="Text_Materia_FechInicio">Start Date: </string>
+    <string name="Text_Materia_FechaFin">End Date: </string>
+    <string name="Text_Materia_NotaFinal">Final Score: </string>
+    <string name="Text_Materia_btn_EndCourseUpdate">Update</string>
+    <!-- Aca van las variables del Fragment StCourse-->
+    <string name="Text_Materia_Titulo_start">Start Course: </string>
+    <!-- Aca van las variables del Fragment EditNote-->
+    <string name="Text_EditNote_Titulo">Editar Upcomming event: </string>
+    <string name="Text_EditNote_Materia">Course: </string>
+    <string name="Text_EditNote_Fecha">Date: </string>
+    <string name="Text_EditNote_Hora">Time: </string>
+    <string name="Text_EditNote_Tipo_Evento">Type of evaluation: </string>
+    <string name="Text_EditNote_Nota">Score: </string>
+</resources>

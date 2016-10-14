@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="@string/Menu_Home" />
+        <item
+            android:id="@+id/nav_MyProfile"
+            android:icon="@drawable/graduated"
+            android:title="@string/Menu_MyProfile" />
+        <item
+            android:id="@+id/nav_MngCareer"
+            android:icon="@drawable/career"
+            android:title="@string/Menu_MngCareer" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="@string/Menu_Share" />
+    </group>
+
+    <item android:title="App Setting">
+        <menu>
+
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="@string/Menu_Settings" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@android:drawable/ic_menu_info_details"
+                android:title="@string/Menu_About" />
+        </menu>
+    </item>
+
+</menu>

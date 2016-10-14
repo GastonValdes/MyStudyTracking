@@ -1,0 +1,41 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    tools:context=".UI.fragments.fragment_about">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/imageView3"
+            android:layout_gravity="center_horizontal|top"
+            android:src="@drawable/startup"
+            android:contentDescription="@string/imgabout" />
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="185dp"
+            android:id="@+id/scrollView2"
+            android:layout_weight="0.43">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/About_ESP"
+                android:layout_weight="0.43" />
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</FrameLayout>
