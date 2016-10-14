@@ -1,0 +1,120 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.fragments.Fragment_Settings">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="418dp"
+        android:id="@+id/scrollView3"
+        android:layout_alignTop="@+id/textView_config_Eventos"
+        android:layout_toRightOf="@+id/textView_config_preaviso"
+        android:layout_toEndOf="@+id/textView_config_preaviso" >
+
+    </ScrollView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Save_Button"
+        android:id="@+id/btn_Config_Save"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="106dp"
+        android:layout_gravity="center_horizontal|bottom" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|top">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Config_Preaviso_Plazo"
+            android:id="@+id/textView_config_preaviso"
+            android:textSize="18sp"
+            android:textIsSelectable="false"
+            android:layout_below="@+id/textView4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="21dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText_Config_dias"
+            android:maxLength="2"
+            android:maxLines="1"
+            android:inputType="number"
+            android:layout_marginLeft="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_alignBottom="@+id/textView_config_preaviso"
+            android:layout_alignLeft="@+id/toggleButton"
+            android:layout_alignStart="@+id/toggleButton"
+            android:enabled="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Config_Preaviso_Si_No"
+            android:id="@+id/textView4"
+            android:textSize="18sp"
+            android:layout_alignBottom="@+id/toggleButton"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New ToggleButton"
+            android:id="@+id/toggleButton"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Config_Preaviso_Eventos"
+            android:id="@+id/textView_config_Eventos"
+            android:textSize="18sp"
+            android:textIsSelectable="false"
+            android:layout_below="@+id/textView_config_preaviso"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner_Config_Universidad"
+            android:layout_below="@+id/textView_config_Eventos"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="17dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText_Config_Eventos"
+            android:maxLength="2"
+            android:maxLines="1"
+            android:inputType="number"
+            android:layout_alignBottom="@+id/textView_config_Eventos"
+            android:layout_alignLeft="@+id/editText_Config_dias"
+            android:layout_alignStart="@+id/editText_Config_dias" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner_Config_Carrera"
+            android:layout_marginTop="25dp"
+            android:layout_below="@+id/spinner_Config_Universidad"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+
+</FrameLayout>

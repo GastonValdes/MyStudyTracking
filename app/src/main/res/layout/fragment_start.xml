@@ -1,0 +1,71 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/tools"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.fragments.Fragment_Start">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:id="@+id/Home_ImageView"
+            android:layout_gravity="center_horizontal|top"
+            android:background="@drawable/background"
+            android:maxHeight="300dp"
+            android:layout_height="181sp"
+            android:contentDescription="@string/Image" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Wellcome"
+            android:id="@+id/textView_Wellcome"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Home_Upcoming"
+            android:id="@+id/HomeUpcoming_txtview"
+            android:linksClickable="false"
+            android:textColor="#2891d7"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ListView
+                android:layout_width="match_parent"
+                android:id="@+id/HomeUpcoming_listView"
+                android:divider="@null"
+                android:dividerHeight="0dp"
+                android:textSize="14sp"
+                android:layout_margin="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:padding="0dp"
+                android:paddingBottom="0dp"
+                android:paddingLeft="0dp"
+                android:paddingEnd="0dp"
+                android:paddingRight="0dp"
+                android:paddingStart="0dp"
+                android:paddingTop="0dp"
+                android:scrollbarSize="1dp"
+                android:layout_height="313sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Aca van las variables Genericas  -->
+    <string name="app_name">Seguimiento de Carrera</string>
+    <string name="Wellcome">Bienvenido </string>
+    <string name="txtNombre">Nombre: </string>
+    <string name="txtApellido">Apellido: </string>
+    <string name="txtEmail">eMail: </string>
+    <string name="txtTel">Telefono: </string>
+    <string name="txtCel">Celular: </string>
+    <string name="navigation_drawer_open">Abrir navigation drawer</string>
+    <string name="navigation_drawer_close">Cerrar navigation drawer</string>
+    <string name="action_about">Acerca De</string>
+    <string name="action_settings">Configuracion</string>
+    <string name="Home_Upcoming">Proximos Eventos</string>
+    <string name="Config_Preaviso_Si_No">Habilitar Preavisos</string>
+    <string name="Config_Preaviso_Plazo">Dias de Preaviso</string>
+    <string name="Config_Preaviso_Eventos">Cantidad de Eventos</string>
+    <string name="hello_blank_fragment">Hola Fragmento Nuevo</string>
+    <string name="Data_Updated">Informacion Actualizada</string>
+    <string name="Tap2_Exit">Presione Atras nuevamente para salir</string>
+     <string name="About_ESP">Esta es mi primer aplicacion.\n
+        La cree por sugerencia de mi esposa y tiene por objetivo ayudar al usuario a llevar
+        un control del estado de su cursada, horarios, avance de la carrera, contactos de los profesores, etc.\n
+        Adicionalmente mi objetivo es usarla para aprender e ir mejorandola.\n
+        Es por eso que no pienso sacar ningun redito economico.\n
+        \n
+        Saludos y gracias\n
+        Gaston Valdes\n
+        \n
+        cualquier sujerencia es bienvenida en: gastonvaldes@gmail.com\n
+    </string>
+    <string name="imgabout">ImgAbout</string>
+    <!-- Aca van las variables del Drawer  -->
+    <string name="Title"></string>
+    <string name="Menu_Home">Inicio</string>
+    <string name="Menu_MyProfile">Mi Perfil</string>
+    <string name="Menu_MngCareer">Gestionar mi carrera</string>
+    <string name="Menu_Share">Compartir</string>
+    <string name="Menu_Settings">Configuracion</string>
+    <string name="Menu_About">Acerca de...</string>
+    <string name="Menu_Exit">Salir</string>
+    <!-- Aca van las variables de los Floating Buttons  -->
+    <string name="Flt_Calendar">Calendario</string>
+    <string name="Flt_CareerOverview">Resumen de mi Carrera</string>
+    <string name="Flt_NewEvent">Nuevo Evento</string>
+    <!-- Aca van los Botones-->
+    <string name="Save_Button">Grabar</string>
+    <!-- Aca van las variables del Fragment My_Career-->
+    <string name="Text_U">Universidad: </string>
+    <string name="Text_Carrera">Carrera: </string>
+    <string name="Text_TituloGrado">Titulo: </string>
+    <string name="Text_TituloIntermedio">Titulo Intermedio: </string>
+    <string name="Text_Materias_en_Curso">Materias en curso: </string>
+    <string name="Text_Materias_Aprobadas">Materias Aprobadas: </string>
+    <string name="Text_Materias_Regularizadas">Materias Regularizadas (final pendiente): </string>
+    <string name="Text_Materias_Totales">Cantidad Total de Materias: </string>
+    <!-- Aca van las variables del Fragment New_Event-->
+    <string name="Text_Titulo_Materia">Elija una materia: </string>
+    <string name="Text_Titulo_Actividad">Elija el tipo de evaluación: </string>
+    <string name="Text_Titulo_Fecha">Fecha: </string>
+    <string name="EditText_Fecha">Seleccione una fecha</string>
+    <!-- Aca van las variables de Items.xml-->
+    <string name="Image">Logo Imagen </string>
+    <!-- Aca van las variables del Fragment Manage_Career-->
+    <string name="Text_Listado_Materias">Seleccionar Materias para cursar: </string>
+    <string name="Text_Listado_Materias_EnCurso">Materias en curso: </string>
+    <string name="btn_Listado_Materias">Iniciar Cursada: </string>
+    <string name="btn_Listado_Materias_EnCurso">Finalizar Cursada: </string>
+    <!-- Aca van las variables del Fragment StCourse-->
+    <string name="Text_Materia">Materia seleccionada para iniciar: </string>
+    <string name="Text_Materia_noselect">No ha seleccionado materia aun</string>
+    <string name="Text_Profe">Profesor: </string>
+    <!-- Aca van las variables del Fragment EndCourse-->
+    <string name="Text_Materia_Titulo">Actualizacion de Materia: </string>
+    <string name="Text_Materia_HsTotales">HS Totales: </string>
+    <string name="Text_Materia_Regularizada">Regularizada: </string>
+    <string name="Text_Materia_Aprobada">Aprobada: </string>
+    <string name="Text_Materia_Activa">En curso: </string>
+    <string name="Text_Materia_FechInicio">Fecha de Inicio: </string>
+    <string name="Text_Materia_FechaFin">Fecha de Fin: </string>
+    <string name="Text_Materia_NotaFinal">Nota Final: </string>
+    <string name="Text_Materia_btn_EndCourseUpdate">Actualizar</string>
+    <!-- Aca van las variables del Fragment StCourse-->
+    <string name="Text_Materia_Titulo_start">Iniciar Cursada: </string>
+    <!-- Aca van las variables del Fragment EditNote-->
+    <string name="Text_EditNote_Titulo">Editar Evento: </string>
+    <string name="Text_EditNote_Materia">Materia: </string>
+    <string name="Text_EditNote_Fecha">Fecha: </string>
+    <string name="Text_EditNote_Hora">Hora: </string>
+    <string name="Text_EditNote_Tipo_Evento">Tipo de Evento: </string>
+    <string name="Text_EditNote_Nota">Nota: </string>
+</resources>

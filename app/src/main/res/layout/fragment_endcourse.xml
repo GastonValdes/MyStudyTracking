@@ -1,0 +1,211 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.fragments.Fragment_ManageCareer">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="546dp"
+        android:id="@+id/scrollView" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <TextView
+            android:text="@string/Text_Materia_Titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_Titulo"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:paddingTop="5dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_CierreMat"
+            android:textSize="18sp"
+            android:textColor="@android:color/holo_blue_dark" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <TextView
+                android:text="@string/Text_Materia_HsTotales"
+                android:layout_width="141dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView_mat_hsTotales"
+                android:layout_weight="1"
+                android:textSize="16sp" />
+
+            <EditText
+                android:layout_width="262dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/editText_Hs"
+                android:layout_weight="1"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <TextView
+                android:text="@string/Text_Materia_Regularizada"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView_regularizada"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:layout_width="262dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox_Regularizada"
+                android:layout_weight="0.06" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <TextView
+                android:text="@string/Text_Materia_Aprobada"
+                android:layout_width="141dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView_aprobada"
+                android:textSize="16sp"
+                android:layout_weight="0.02" />
+
+            <CheckBox
+                android:layout_width="262dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox_aprobada"
+                android:layout_weight="1.90" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <TextView
+                android:text="@string/Text_Materia_Activa"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView_activa"
+                android:textSize="16sp"
+                android:layout_weight="35.88"
+                android:layout_width="141dp" />
+
+            <CheckBox
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox_activa"
+                android:layout_weight="171.80"
+                android:layout_width="262dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <TextView
+                android:text="@string/Text_Materia_FechInicio"
+                android:layout_width="141dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView_FechaInicio"
+                android:layout_weight="1.03"
+                android:textSize="16sp" />
+
+            <EditText
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:inputType="date"
+                android:ems="10"
+                android:id="@+id/editText_fechaInicio"
+                android:layout_weight="0.69" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <TextView
+                android:text="@string/Text_Materia_FechaFin"
+                android:layout_width="141dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView_FechaFin"
+                android:layout_weight="1.49"
+                android:textSize="16sp" />
+
+            <EditText
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:inputType="date"
+                android:ems="10"
+                android:id="@+id/editText_fechaFin"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.23">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <TextView
+                android:text="@string/Text_Materia_NotaFinal"
+                android:layout_width="141dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView_NotaFinal"
+                android:layout_weight="1.23"
+                android:textSize="16sp" />
+
+            <EditText
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/editText_NotaFinal"
+                android:layout_width="240dp"
+                android:layout_weight="0.60" />
+        </LinearLayout>
+
+        <Button
+            android:text="@string/Text_Materia_btn_EndCourseUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_EndCourseUpdate" />
+
+    </LinearLayout>
+    </ScrollView>
+</FrameLayout>

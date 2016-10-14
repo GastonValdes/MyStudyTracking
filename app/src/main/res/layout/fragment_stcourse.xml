@@ -1,0 +1,178 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.fragments.Fragment_ManageCareer">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Text_Materia_Titulo_start"
+            android:id="@+id/textView_Titulo"
+            android:layout_gravity="left|top"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_IniciarMateria"
+            android:textSize="18sp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:paddingTop="5dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="270dp">
+
+            <TextView
+                android:text="@string/Text_Profe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView_Profe"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/textView_Profe"
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:text="@string/txtNombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:id="@+id/textView_Name"
+                android:textSize="16sp"
+                android:layout_below="@+id/textView_Profe"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:text="@string/txtApellido"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView_LastName"
+                android:textSize="16sp"
+                android:layout_below="@+id/textView_Name"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:text="@string/txtEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView_LastName"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/textView_email"
+                android:textSize="16sp" />
+
+            <TextView
+                android:text="@string/txtTel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView_Tel"
+                android:layout_below="@+id/textView_email"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textSize="16sp" />
+
+            <TextView
+                android:text="@string/txtCel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView_Tel"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/textView_Cel"
+                android:textSize="16sp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="@string/txtApellido"
+                android:ems="10"
+                android:id="@+id/editText_Apellido"
+                android:layout_alignBaseline="@+id/textView_LastName"
+                android:layout_alignBottom="@+id/textView_LastName"
+                android:layout_centerHorizontal="true" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="@string/txtNombre"
+                android:ems="10"
+                android:id="@+id/editText_Nombre"
+                android:textSize="16sp"
+                android:layout_alignBaseline="@+id/textView_Name"
+                android:layout_alignBottom="@+id/textView_Name"
+                android:layout_alignLeft="@+id/editText_Apellido"
+                android:layout_alignStart="@+id/editText_Apellido" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:text="@string/txtEmail"
+                android:ems="10"
+                android:id="@+id/editText_email"
+                android:layout_alignBaseline="@+id/textView_email"
+                android:layout_alignBottom="@+id/textView_email"
+                android:layout_alignLeft="@+id/editText_Apellido"
+                android:layout_alignStart="@+id/editText_Apellido" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtTel"
+                android:ems="10"
+                android:id="@+id/editText_phone"
+                android:layout_alignBaseline="@+id/textView_Tel"
+                android:layout_alignBottom="@+id/textView_Tel"
+                android:layout_alignLeft="@+id/editText_Apellido"
+                android:layout_alignStart="@+id/editText_Apellido"
+                android:inputType="phone" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:text="@string/txtCel"
+                android:ems="10"
+                android:id="@+id/editText_Cel"
+                android:layout_alignBaseline="@+id/textView_Cel"
+                android:layout_alignBottom="@+id/textView_Cel"
+                android:layout_alignLeft="@+id/editText_email"
+                android:layout_alignStart="@+id/editText_email" />
+
+            <Button
+                android:text="@string/btn_Listado_Materias"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_Start_Course"
+                android:layout_marginTop="12dp"
+                android:layout_below="@+id/editText_Cel"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+    </ScrollView>
+</FrameLayout>

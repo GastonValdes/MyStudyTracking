@@ -1,0 +1,74 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.fragments.Fragment_ManageCareer">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/textView_MuestraCarrera"
+            android:layout_gravity="left|top"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/textView_MuestraTItuloIntermedio"
+            android:textStyle="normal|italic"
+            android:textSize="16sp"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/textView_muestrTitulo"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|italic" />
+
+        <TextView
+            android:text="@string/Text_Listado_Materias_EnCurso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_MateriasActivas"
+            android:textSize="16sp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:paddingTop="5dp" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:id="@+id/ActiveMaterias_listView"
+            android:listSelector="@layout/item_list_indicator"/>
+
+        <TextView
+            android:text="@string/Text_Listado_Materias"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_IniciarCursada"
+            android:textSize="16sp"
+            android:textColor="@android:color/holo_blue_dark" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="212dp"
+            android:layout_weight="0.40"
+            android:id="@+id/AllMaterias_listView"
+            android:listSelector="@layout/item_list_indicator" />
+
+    </LinearLayout>
+
+</FrameLayout>
